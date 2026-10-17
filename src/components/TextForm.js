@@ -55,10 +55,10 @@ export default function TextForm(props) {
         value={text}
         onChange={handleOnChange}
       ></textarea>
-      <button className={`btn btn-${props.btnColor} mr-2`} onClick={handleUppercase}>convet to uppercase</button>
-      <button className={`btn btn-${props.btnColor} m-2`} onClick={handleLowercase}>convet to lowercase</button>
-      <button className={`btn btn-${props.btnColor} m-2`} onClick={handleCopy}>copy</button>
-      <button className={`btn btn-${props.btnColor} m-2`} onClick={handleExtraSpace}>remove extra space</button>
+      <button className={`btn btn-primary mr-2`} onClick={handleUppercase}>convet to uppercase</button>
+      <button className={`btn btn-primary m-2`} onClick={handleLowercase}>convet to lowercase</button>
+      <button className={`btn btn-primary m-2`} onClick={handleCopy}>copy</button>
+      <button className={`btn btn-primary m-2`} onClick={handleExtraSpace}>remove extra space</button>
     </div>
     <div className={`container text-${props.mode==="light"?"dark":"light"}`}>
       <h3>text summary</h3>
